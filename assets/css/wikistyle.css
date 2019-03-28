@@ -1,0 +1,133 @@
+a{
+    color: #343a40;
+}
+a:hover{
+    color: black;
+}
+.logo{
+    display: block;
+    text-align: center;
+    margin-top: 13vh;
+}
+#kmlogo{
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 25px;
+    
+    max-height: 15vh;
+    min-height: 5vh;
+}
+.kminput{
+    display: block;
+    margin: auto;
+    
+}
+#kmsearch{
+    padding-left: 17px;
+    padding-right: 17px;
+    margin-top: 19px;
+    margin-bottom: 23px;
+    height: 7vh;
+    width: 39vw;
+    min-width: 30vw;
+    border: 1px solid #bbb;
+    border-radius: 21px;
+}
+#kmsearch:hover{
+    box-shadow: 0px 0px 0px 1px #d7d7d7; 
+}
+#kmsearch:focus {
+    padding-left: 17px;
+    padding-right: 17px;
+    outline: none;
+    box-shadow: 0px 0px 0px 2px #d7d7d7; 
+}
+#kmsubmit{
+    opacity: 1;
+    color: #fff;
+    font-weight: 500;
+    padding-bottom: 3px;
+    height: 6vh;
+    width: 7vw;
+    max-width: 70px;
+    background: #0096FF;
+    border: 0px solid;
+    border-radius: 11px;
+}
+#kmsubmit:hover{
+    color: #454545;
+    outline: none;
+    background: #f7f7f7;
+    border: 1px solid #dcdcdc;
+}
+#kmsubmit:focus{
+    outline: none;
+    border: 1px solid #1E90FF;
+}
+.container{
+    min-height: 35vh;
+    height: 100%;
+    color: white;
+    margin-top: 11vh;
+    padding-bottom: 21px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.kmsocial{
+    color: white;
+    border-radius: 5px;
+    font-size: 35px;
+    width: 300px;
+    margin:auto; 
+    margin-top: 21px;
+    margin-bottom: 21px;
+}
+.cont-title{
+    background: #0096FF;
+    margin: 0;
+    width: 100%;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+.datacard{
+    text-align: center;
+    color: #fff;
+    padding: 5px;
+    padding-left: 15px;
+    
+    /*border: 1px solid #000;*/
+}
+.datacard b{
+    font-size: 17px;
+    margin-right: 1px;
+}
+.datacard-body{
+    text-align: left;
+    font-size: 13px;
+}
+.datacard-border{
+    border:0px solid #353b42;/*#353b41; */
+    background: #343a40;/*#212529;*/
+}
+@media only screen and (max-width: 900px) {
+    #kmlogo{
+        height: 11vh;
+    }
+    #kmsearch{
+        padding-left: 17px;
+        height: 7vh;
+        width: 70vw;
+    }
+    #kmsubmit{
+        height: 7vh;
+        width: 19vw;
+        max-width: 70px;
+    }
+}
+footer{
+    color: #fff;
+    background: #0096FF;
+    margin:auto;
+    height: 11vh;
+    position: static;
+}
